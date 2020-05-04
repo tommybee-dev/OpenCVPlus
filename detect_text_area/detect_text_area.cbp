@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="detect_text_area" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="detect_text_area" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="D:/DEV/LIB/OpenCV-3.4.7_x86_MinGW/x86/mingw/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="C:/DEV/LIB/Opencv/3.4.7/include" />
+					<Add directory="D:/DEV/workspaces_wx/cvplot" />
+				</Compiler>
+				<Linker>
+					<Add option="-lm" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libcvplot.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_aruco347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_bgsegm347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_bioinspired347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_calib3d347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ccalib347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_core347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_datasets347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_dnn_objdetect347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_dnn347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_dpm347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_face347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_features2d347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_flann347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_fuzzy347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_hdf347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_hfs347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_highgui347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_img_hash347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_imgcodecs347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_imgproc347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_line_descriptor347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ml347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_objdetect347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_optflow347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ovis347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_phase_unwrapping347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_photo347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_plot347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_reg347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_rgbd347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_saliency347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_shape347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_stereo347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_stitching347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_structured_light347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_superres347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_surface_matching347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_text347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_tracking347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_video347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_videoio347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_videostab347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_xfeatures2d347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ximgproc347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_xobjdetect347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_xphoto347.dll.a" />
+					<Add directory="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/detect_text_area" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="D:/DEV/LIB/OpenCV-4.1.2_x86_MinGW/Opencv412/x86/mingw/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="$(#opencv.INCLUDE)" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libcvplot.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_aruco347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_bgsegm347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_bioinspired347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_calib3d347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ccalib347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_core347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_datasets347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_dnn_objdetect347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_dnn347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_dpm347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_face347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_features2d347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_flann347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_fuzzy347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_hdf347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_hfs347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_highgui347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_img_hash347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_imgcodecs347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_imgproc347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_line_descriptor347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ml347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_objdetect347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_optflow347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ovis347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_phase_unwrapping347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_photo347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_plot347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_reg347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_rgbd347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_saliency347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_shape347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_stereo347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_stitching347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_structured_light347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_superres347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_surface_matching347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_text347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_tracking347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_video347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_videoio347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_videostab347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_xfeatures2d347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_ximgproc347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_xobjdetect347.dll.a" />
+					<Add library="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib/libopencv_xphoto347.dll.a" />
+					<Add directory="C:/DEV/LIB/Opencv/3.4.7/x86/mingw/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="detect_text_area.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
