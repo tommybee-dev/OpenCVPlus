@@ -23,6 +23,9 @@
 <a href="https://blog.naver.com/tommybee/221923484378"> blog post[C++] </a>
 <a href="https://blog.naver.com/tommybee/221923053442"> blog post[Python] </a>
 <p>
-<b>6. multi-scale-template-matching	</b>
+<b>7. multi-scale-template-matching	</b>
 <a href="https://blog.naver.com/tommybee/221914090637"> blog post[C++] </a>
 <a href="https://blog.naver.com/tommybee/221906750991"> blog post[Python] </a>
+<b>8. Recognizing digits with OpenCV and C++	</b>
+<a href="https://blog.naver.com/tommybee/221957997624"> blog post[C++] </a>
+
