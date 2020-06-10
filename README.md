@@ -29,4 +29,7 @@
   <p>
 <b>8. Recognizing digits with OpenCV and C++	</b><br>
 <a href="https://blog.naver.com/tommybee/221957997624"> blog post[C++] </a>
+    
+<b>... Tesseract 5.0.0	</b><br>
+<a href="https://blog.naver.com/tommybee/221992479454"> A tesseract library with a leptonica-1.78.0 </a>
 
