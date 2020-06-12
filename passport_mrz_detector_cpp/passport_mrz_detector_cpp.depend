@@ -1,0 +1,1299 @@
+# depslib dependency file v1.0
+1513633710 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\getcwd.cpp
+	<unistd.h>
+	<cerrno>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	"getcwd.h"
+
+1513633710 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\getcwd.h
+	<string>
+
+1513633710 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\debug.cpp
+	<opencv2/opencv.hpp>
+	"util.h"
+	"debug.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\opencv.hpp
+	"opencv2/opencv_modules.hpp"
+	"opencv2/core.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/dnn.hpp"
+	"opencv2/flann.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/ml.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/shape.hpp"
+	"opencv2/stitching.hpp"
+	"opencv2/superres.hpp"
+	"opencv2/video.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/videostab.hpp"
+	"opencv2/viz.hpp"
+	"opencv2/cudaarithm.hpp"
+	"opencv2/cudabgsegm.hpp"
+	"opencv2/cudacodec.hpp"
+	"opencv2/cudafeatures2d.hpp"
+	"opencv2/cudafilters.hpp"
+	"opencv2/cudaimgproc.hpp"
+	"opencv2/cudaobjdetect.hpp"
+	"opencv2/cudaoptflow.hpp"
+	"opencv2/cudastereo.hpp"
+	"opencv2/cudawarping.hpp"
+
+1565447942 c:\dev\lib\opencv\3.4.7\include\opencv2\opencv_modules.hpp
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/version.hpp"
+	"opencv2/core/base.hpp"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/persistence.hpp"
+	"opencv2/core/operations.hpp"
+	"opencv2/core/cvstd.inl.hpp"
+	"opencv2/core/utility.hpp"
+	"opencv2/core/optim.hpp"
+	"opencv2/core/ovx.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cvdef.h
+	"cvconfig.h"
+	<limits.h>
+	"opencv2/core/hal/interface.h"
+	"cv_cpu_dispatch.h"
+	<intrin.h>
+	<array>
+	<cstdint>
+	<stdint.h>
+	<stdint.h>
+	"opencv2/core/fast_math.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\hal\interface.h
+	<cstddef>
+	<stddef.h>
+	<stdbool.h>
+	<cstdint>
+	<stdint.h>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cv_cpu_dispatch.h
+	"cv_cpu_config.h"
+	"cv_cpu_helper.h"
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<nmmintrin.h>
+	<popcntintrin.h>
+	<immintrin.h>
+	<arm_neon.h>
+	<immintrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<Intrin.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<altivec.h>
+	<emmintrin.h>
+	<Intrin.h>
+	<arm_neon.h>
+	<arm_neon.h>
+	<altivec.h>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cv_cpu_helper.h
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\fast_math.hpp
+	"opencv2/core/cvdef.h"
+	<emmintrin.h>
+	<cmath>
+	<fastmath.h>
+	<math.h>
+	"tegra_round.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\version.hpp
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\base.hpp
+	"opencv2/opencv_modules.hpp"
+	<climits>
+	<algorithm>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/neon_utils.hpp"
+	"opencv2/core/vsx_utils.hpp"
+	"opencv2/core/check.hpp"
+
+1565274126 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cvstd.hpp
+	"opencv2/core/cvdef.h"
+	<cstddef>
+	<cstring>
+	<cctype>
+	<string>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<cmath>
+	"opencv2/core/ptr.inl.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\ptr.inl.hpp
+	<algorithm>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\neon_utils.hpp
+	"opencv2/core/cvdef.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\vsx_utils.hpp
+	"opencv2/core/cvdef.h"
+	<assert.h>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\check.hpp
+	<opencv2/core/base.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\traits.hpp
+	"opencv2/core/cvdef.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\matx.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/saturate.hpp"
+	<initializer_list>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\saturate.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/fast_math.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\types.hpp
+	<climits>
+	<cfloat>
+	<vector>
+	<limits>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/matx.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\mat.hpp
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/bufferpool.hpp"
+	<type_traits>
+	"opencv2/core/mat.inl.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\bufferpool.hpp
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\mat.inl.hpp
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\persistence.hpp
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/opencv.hpp"
+	<time.h>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\operations.hpp
+	<cstdio>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cvstd.inl.hpp
+	<complex>
+	<ostream>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\utility.hpp
+	"opencv2/core.hpp"
+	<ostream>
+	<functional>
+	"opencv2/core/core_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\core_c.h
+	"opencv2/core/types_c.h"
+	"cxcore.h"
+	"cxcore.h"
+	"opencv2/core/utility.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\types_c.h
+	<ipl.h>
+	<ipl/ipl.h>
+	"opencv2/core/cvdef.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\optim.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\ovx.hpp
+	"cvdef.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\calib3d.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/core/affine.hpp"
+	"opencv2/calib3d/calib3d_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\features2d.hpp
+	"opencv2/opencv_modules.hpp"
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\miniflann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/defines.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\defines.h
+	"config.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\config.h
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\affine.hpp
+	<opencv2/core.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\calib3d\calib3d_c.h
+	"opencv2/core/core_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\dnn.hpp
+	<opencv2/dnn/dnn.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\dnn\dnn.hpp
+	<vector>
+	<opencv2/core.hpp>
+	"opencv2/core/async.hpp"
+	<opencv2/dnn/dict.hpp>
+	<opencv2/dnn/layer.hpp>
+	<opencv2/dnn/dnn.inl.hpp>
+	<opencv2/dnn/utils/inference_engine.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\async.hpp
+	<opencv2/core/mat.hpp>
+	<chrono>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\dnn\dict.hpp
+	<opencv2/core.hpp>
+	<map>
+	<ostream>
+	<opencv2/dnn/dnn.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\dnn\layer.hpp
+	<opencv2/dnn.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\dnn\dnn.inl.hpp
+	<opencv2/dnn.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\dnn\utils\inference_engine.hpp
+	"../dnn.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	"opencv2/flann/flann_base.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\flann_base.hpp
+	<vector>
+	<cassert>
+	<cstdio>
+	"general.h"
+	"matrix.h"
+	"params.h"
+	"saving.h"
+	"all_indices.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\general.h
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\matrix.h
+	<stdio.h>
+	"general.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\params.h
+	"any.h"
+	"general.h"
+	<iostream>
+	<map>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\any.h
+	"defines.h"
+	<stdexcept>
+	<ostream>
+	<typeinfo>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\saving.h
+	<cstring>
+	<vector>
+	"general.h"
+	"nn_index.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\nn_index.h
+	"general.h"
+	"matrix.h"
+	"result_set.h"
+	"params.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\result_set.h
+	<algorithm>
+	<cstring>
+	<iostream>
+	<limits>
+	<set>
+	<vector>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\all_indices.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"hierarchical_clustering_index.h"
+	"lsh_index.h"
+	"autotuned_index.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\kdtree_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"general.h"
+	"nn_index.h"
+	"dynamic_bitset.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\dynamic_bitset.h
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+	"dist.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\dist.h
+	<cmath>
+	<cstdlib>
+	<string.h>
+	<stdint.h>
+	"defines.h"
+	<Intrin.h>
+	"arm_neon.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\heap.h
+	<algorithm>
+	<vector>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\allocator.h
+	<stdlib.h>
+	<stdio.h>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\random.h
+	<algorithm>
+	<cstdlib>
+	<vector>
+	"general.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\kdtree_single_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"general.h"
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\kmeans_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+	"logger.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"defines.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\composite_index.h
+	"general.h"
+	"nn_index.h"
+	"kdtree_index.h"
+	"kmeans_index.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\linear_index.h
+	"general.h"
+	"nn_index.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\hierarchical_clustering_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"general.h"
+	"nn_index.h"
+	"dist.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\lsh_index.h
+	<algorithm>
+	<cassert>
+	<cstring>
+	<map>
+	<vector>
+	"general.h"
+	"nn_index.h"
+	"matrix.h"
+	"result_set.h"
+	"heap.h"
+	"lsh_table.h"
+	"allocator.h"
+	"random.h"
+	"saving.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\lsh_table.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<limits.h>
+	<unordered_map>
+	<map>
+	<math.h>
+	<stddef.h>
+	"dynamic_bitset.h"
+	"matrix.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\autotuned_index.h
+	<sstream>
+	"general.h"
+	"nn_index.h"
+	"ground_truth.h"
+	"index_testing.h"
+	"sampling.h"
+	"kdtree_index.h"
+	"kdtree_single_index.h"
+	"kmeans_index.h"
+	"composite_index.h"
+	"linear_index.h"
+	"logger.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\ground_truth.h
+	"dist.h"
+	"matrix.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\index_testing.h
+	<cstring>
+	<cassert>
+	<cmath>
+	"matrix.h"
+	"nn_index.h"
+	"result_set.h"
+	"logger.h"
+	"timer.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\timer.h
+	<time.h>
+	"opencv2/core.hpp"
+	"opencv2/core/utility.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\flann\sampling.h
+	"matrix.h"
+	"random.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\highgui.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\imgcodecs.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videoio.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\highgui\highgui_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgcodecs/imgcodecs_c.h"
+	"opencv2/videoio/videoio_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\imgproc\imgproc_c.h
+	"opencv2/imgproc/types_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\imgproc\types_c.h
+	"opencv2/core/core_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\imgcodecs\imgcodecs_c.h
+	"opencv2/core/core_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videoio\videoio_c.h
+	"opencv2/core/core_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\imgproc.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\ml.hpp
+	"opencv2/core.hpp"
+	<float.h>
+	<map>
+	<iostream>
+	<opencv2/ml/ml.inl.hpp>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\ml\ml.inl.hpp
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\objdetect.hpp
+	"opencv2/core.hpp"
+	"opencv2/objdetect/detection_based_tracker.hpp"
+	"opencv2/objdetect/objdetect_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\objdetect\detection_based_tracker.hpp
+	<opencv2/core.hpp>
+	<vector>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\objdetect\objdetect_c.h
+	"opencv2/core/core_c.h"
+	<deque>
+	<vector>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\photo.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo/photo_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\photo\photo_c.h
+	"opencv2/core/core_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\shape.hpp
+	"opencv2/shape/emdL1.hpp"
+	"opencv2/shape/shape_transformer.hpp"
+	"opencv2/shape/hist_cost.hpp"
+	"opencv2/shape/shape_distance.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\shape\emdl1.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\shape\shape_transformer.hpp
+	<vector>
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\shape\hist_cost.hpp
+	"opencv2/imgproc.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\shape\shape_distance.hpp
+	"opencv2/core.hpp"
+	"opencv2/shape/hist_cost.hpp"
+	"opencv2/shape/shape_transformer.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/stitching/warpers.hpp"
+	"opencv2/stitching/detail/matchers.hpp"
+	"opencv2/stitching/detail/motion_estimators.hpp"
+	"opencv2/stitching/detail/exposure_compensate.hpp"
+	"opencv2/stitching/detail/seam_finders.hpp"
+	"opencv2/stitching/detail/blenders.hpp"
+	"opencv2/stitching/detail/camera.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\warpers.hpp
+	"opencv2/stitching/detail/warpers.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\warpers.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/cuda.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/opencv_modules.hpp"
+	"warpers_inl.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cuda.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/cuda_types.hpp"
+	<opencv2/opencv.hpp>
+	"opencv2/core/cuda.inl.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cuda_types.hpp
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\core\cuda.inl.hpp
+	"opencv2/core/cuda.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\warpers_inl.hpp
+	"opencv2/core.hpp"
+	"warpers.hpp"
+	<limits>
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\matchers.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/opencv_modules.hpp"
+	"opencv2/xfeatures2d/cuda.hpp"
+
+1535341286 c:\dev\lib\opencv\3.4.7\include\opencv2\xfeatures2d\cuda.hpp
+	"opencv2/core/cuda.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\motion_estimators.hpp
+	"opencv2/core.hpp"
+	"matchers.hpp"
+	"util.hpp"
+	"camera.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\util.hpp
+	<list>
+	"opencv2/core.hpp"
+	"util_inl.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\util_inl.hpp
+	<queue>
+	"opencv2/core.hpp"
+	"util.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\camera.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\exposure_compensate.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\seam_finders.hpp
+	<set>
+	"opencv2/core.hpp"
+	"opencv2/opencv_modules.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\stitching\detail\blenders.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/cuda.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\superres.hpp
+	"opencv2/core.hpp"
+	"opencv2/superres/optical_flow.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\superres\optical_flow.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\video.hpp
+	"opencv2/video/tracking.hpp"
+	"opencv2/video/background_segm.hpp"
+	"opencv2/video/tracking_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\video\tracking.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\video\background_segm.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\video\tracking_c.h
+	"opencv2/imgproc/types_c.h"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab.hpp
+	"opencv2/videostab/stabilizer.hpp"
+	"opencv2/videostab/ring_buffer.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\stabilizer.hpp
+	<vector>
+	<ctime>
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/videostab/global_motion.hpp"
+	"opencv2/videostab/motion_stabilizing.hpp"
+	"opencv2/videostab/frame_source.hpp"
+	"opencv2/videostab/log.hpp"
+	"opencv2/videostab/inpainting.hpp"
+	"opencv2/videostab/deblurring.hpp"
+	"opencv2/videostab/wobble_suppression.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\global_motion.hpp
+	<vector>
+	<fstream>
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/opencv_modules.hpp"
+	"opencv2/videostab/optical_flow.hpp"
+	"opencv2/videostab/motion_core.hpp"
+	"opencv2/videostab/outlier_rejection.hpp"
+	"opencv2/cudaimgproc.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\optical_flow.hpp
+	"opencv2/core.hpp"
+	"opencv2/opencv_modules.hpp"
+	"opencv2/cudaoptflow.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\motion_core.hpp
+	<cmath>
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\outlier_rejection.hpp
+	<vector>
+	"opencv2/core.hpp"
+	"opencv2/videostab/motion_core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\motion_stabilizing.hpp
+	<vector>
+	<utility>
+	"opencv2/core.hpp"
+	"opencv2/videostab/global_motion.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\frame_source.hpp
+	<vector>
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\log.hpp
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\inpainting.hpp
+	<vector>
+	"opencv2/core.hpp"
+	"opencv2/videostab/optical_flow.hpp"
+	"opencv2/videostab/fast_marching.hpp"
+	"opencv2/videostab/global_motion.hpp"
+	"opencv2/photo.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\fast_marching.hpp
+	<cmath>
+	<queue>
+	<algorithm>
+	"opencv2/core.hpp"
+	"fast_marching_inl.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\fast_marching_inl.hpp
+	"opencv2/videostab/fast_marching.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\deblurring.hpp
+	<vector>
+	"opencv2/core.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\wobble_suppression.hpp
+	<vector>
+	"opencv2/core.hpp"
+	"opencv2/core/cuda.hpp"
+	"opencv2/videostab/global_motion.hpp"
+	"opencv2/videostab/log.hpp"
+
+1564023678 c:\dev\lib\opencv\3.4.7\include\opencv2\videostab\ring_buffer.hpp
+	<vector>
+	"opencv2/imgproc.hpp"
+
+1513633710 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\util.h
+
+1513633710 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\debug.h
+	<string>
+	<opencv2/opencv.hpp>
+	"util.h"
+
+1591973703 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\detect.cpp
+	<iostream>
+	<cstdlib>
+	<opencv2/opencv.hpp>
+	<log4cpp/Category.hh>
+	<log4cpp/Appender.hh>
+	<log4cpp/FileAppender.hh>
+	<log4cpp/OstreamAppender.hh>
+	<log4cpp/Layout.hh>
+	<log4cpp/PatternLayout.hh>
+	<log4cpp/SimpleLayout.hh>
+	<log4cpp/Priority.hh>
+	"debug.h"
+	"ocr.h"
+	"mrz.h"
+	"RecogniserKNearest.h"
+	"RecogniserAbsDiff.h"
+	"find_mrz.h"
+	"find_borders.h"
+	"getcwd.h"
+	"sliding_window_capture.h"
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\category.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Appender.hh>
+	<log4cpp/LoggingEvent.hh>
+	<log4cpp/Priority.hh>
+	<log4cpp/CategoryStream.hh>
+	<log4cpp/threading/Threading.hh>
+	<log4cpp/convenience.h>
+	<map>
+	<vector>
+	<cstdarg>
+	<stdexcept>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\portability.hh
+	<log4cpp/config-win32-stlport-boost.h>
+	<log4cpp/config-win32.h>
+	<stdlib.h>
+	<crtdbg.h>
+	<log4cpp/config-openvms.h>
+	<log4cpp/config-MinGW32.h>
+	<log4cpp/config.h>
+	<log4cpp/Export.hh>
+	<sstream>
+	<strstream>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\config-win32.h
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\config-openvms.h
+	<inttypes.h>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\config-mingw32.h
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\config.h
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\export.hh
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\appender.hh
+	<log4cpp/Portability.hh>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<log4cpp/Priority.hh>
+	<log4cpp/Layout.hh>
+	<log4cpp/LoggingEvent.hh>
+	<log4cpp/threading/Threading.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\priority.hh
+	<log4cpp/Portability.hh>
+	<string>
+	<stdexcept>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\layout.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/LoggingEvent.hh>
+	<string>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\loggingevent.hh
+	<log4cpp/Portability.hh>
+	<string>
+	<log4cpp/Priority.hh>
+	<log4cpp/TimeStamp.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\timestamp.hh
+	<log4cpp/Portability.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\threading\threading.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/threading/OmniThreads.hh>
+	<log4cpp/threading/BoostThreads.hh>
+	<log4cpp/threading/MSThreads.hh>
+	<log4cpp/threading/PThreads.hh>
+	<log4cpp/threading/DummyThreads.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\threading\omnithreads.hh
+	<log4cpp/Portability.hh>
+	<omnithread.h>
+	<stdio.h>
+	<string>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\threading\boostthreads.hh
+	<log4cpp/Portability.hh>
+	<boost/thread/thread.hpp>
+	<boost/thread/mutex.hpp>
+	<boost/thread/tss.hpp>
+	<cstdio>
+	<string>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\threading\msthreads.hh
+	<string>
+	<windows.h>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\threading\pthreads.hh
+	<log4cpp/Portability.hh>
+	<stdio.h>
+	<pthread.h>
+	<string>
+	<assert.h>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\threading\dummythreads.hh
+	<log4cpp/Portability.hh>
+	<stdio.h>
+	<string>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\categorystream.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Priority.hh>
+	<ios>
+	<sstream>
+	<log4cpp/Manipulator.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\manipulator.hh
+	<iostream>
+	<log4cpp/Portability.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\convenience.h
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\fileappender.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/LayoutAppender.hh>
+	<string>
+	<stdarg.h>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\layoutappender.hh
+	<string>
+	<log4cpp/Portability.hh>
+	<log4cpp/AppenderSkeleton.hh>
+	<log4cpp/BasicLayout.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\appenderskeleton.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Appender.hh>
+	<log4cpp/Filter.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\filter.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/LoggingEvent.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\basiclayout.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Layout.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\ostreamappender.hh
+	<log4cpp/Portability.hh>
+	<string>
+	<iostream>
+	<log4cpp/LayoutAppender.hh>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\patternlayout.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Layout.hh>
+	<log4cpp/Configurator.hh>
+	<vector>
+	<sstream>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\configurator.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Export.hh>
+	<string>
+	<stdexcept>
+
+1589292774 c:\dev\lib\opencv\log4cpp\home\include\log4cpp\simplelayout.hh
+	<log4cpp/Portability.hh>
+	<log4cpp/Layout.hh>
+
+1591024616 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\ocr.h
+	<cstdlib>
+	<opencv2/opencv.hpp>
+
+1513626440 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\mrz.h
+	<cassert>
+	<string>
+
+1591023902 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\recogniserknearest.h
+	<opencv2/opencv.hpp>
+	"ocr.h"
+
+1591098855 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\recogniserabsdiff.h
+	<opencv2/opencv.hpp>
+	<cassert>
+	"ocr.h"
+
+1513626440 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\find_mrz.h
+	<opencv2/opencv.hpp>
+
+1513633710 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\find_borders.h
+	<opencv2/opencv.hpp>
+
+1513633710 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\sliding_window_capture.h
+	<opencv2/opencv.hpp>
+
+1591974758 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\detect_chars.cpp
+	<iostream>
+	<cstdlib>
+	<opencv2/opencv.hpp>
+	<log4cpp/Category.hh>
+	<log4cpp/Appender.hh>
+	<log4cpp/FileAppender.hh>
+	<log4cpp/OstreamAppender.hh>
+	<log4cpp/Layout.hh>
+	<log4cpp/PatternLayout.hh>
+	<log4cpp/SimpleLayout.hh>
+	<log4cpp/Priority.hh>
+	"debug.h"
+	"ocr.h"
+	"mrz.h"
+	"RecogniserKNearest.h"
+	"RecogniserAbsDiff.h"
+	"recogniser_tesseract.h"
+	"find_mrz.h"
+	"find_borders.h"
+	"getcwd.h"
+	"sliding_window_capture.h"
+
+1591024642 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\recogniser_tesseract.h
+	<cstdlib>
+	<opencv2/opencv.hpp>
+	<tesseract/baseapi.h>
+	"ocr.h"
+	"mat_pix_glue.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\baseapi.h
+	<cstdio>
+	<functional>
+	"config_auto.h"
+	<tesseract/version.h>
+	"apitypes.h"
+	"pageiterator.h"
+	"platform.h"
+	"publictypes.h"
+	"resultiterator.h"
+	"serialis.h"
+	"thresholder.h"
+	"unichar.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\platform.h
+	<climits>
+	<limits.h>
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\apitypes.h
+	"publictypes.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\publictypes.h
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\thresholder.h
+	"platform.h"
+	"publictypes.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\unichar.h
+	<memory.h>
+	<cstring>
+	<string>
+	<vector>
+	"platform.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\tesscallback.h
+	"host.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\host.h
+	"platform.h"
+	<windows.h>
+	<winbase.h>
+	<windows.h>
+	<Types.h>
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\pageiterator.h
+	"platform.h"
+	"publictypes.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\resultiterator.h
+	<set>
+	<vector>
+	"ltrresultiterator.h"
+	"platform.h"
+	"publictypes.h"
+	"unichar.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\ltrresultiterator.h
+	"pageiterator.h"
+	"platform.h"
+	"publictypes.h"
+	"unichar.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\unicharset.h
+	"assert.h"
+	"strngs.h"
+	"unichar.h"
+	"unicharmap.h"
+	"params.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\strngs.h
+	<string.h>
+	"platform.h"
+	"memry.h"
+	"serialis.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\memry.h
+	<stddef.h>
+	"host.h"
+
+1590532282 c:\dev\lib\tesseract-mingw\include\tesseract\serialis.h
+	<cstdint>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\errcode.h
+	"host.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\fileerr.h
+	"errcode.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\unicharmap.h
+	"unichar.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\params.h
+	<stdio.h>
+	"genericvector.h"
+	"strngs.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\genericvector.h
+	<stdio.h>
+	<stdlib.h>
+	"tesscallback.h"
+	"errcode.h"
+	"helpers.h"
+	"ndminx.h"
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\helpers.h
+	<stdio.h>
+	<string.h>
+
+1392042610 c:\dev\lib\tesseract-mingw\include\tesseract\ndminx.h
+
+1513633710 c:\dev\workspaces_opencv\passport_mrz_detector_cpp\mat_pix_glue.h
+	<opencv2/opencv.hpp>
+	<tesseract/baseapi.h>
+
+1589293372 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\find_borders.cpp
+	"find_borders.h"
+	"debug.h"
+
+1589293394 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\find_mrz.cpp
+	"find_mrz.h"
+
+1591103519 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\mrz.cpp
+	"mrz.h"
+
+1513633710 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\ocr.cpp
+	<iostream>
+	<tesseract/baseapi.h>
+	<leptonica/allheaders.h>
+	<leptonica/bmp.h>
+	<opencv2/opencv.hpp>
+	"ocr.h"
+	"util.h"
+
+1551491885 c:\dev\lib\tesseract-mingw\include\leptonica\allheaders.h
+	"alltypes.h"
+
+1460597222 c:\dev\lib\tesseract-mingw\include\leptonica\alltypes.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	"endianness.h"
+	"environ.h"
+	"array.h"
+	"bbuffer.h"
+	"heap.h"
+	"list.h"
+	"ptra.h"
+	"queue.h"
+	"rbtree.h"
+	"stack.h"
+	"arrayaccess.h"
+	"bmf.h"
+	"ccbord.h"
+	"dewarp.h"
+	"gplot.h"
+	"imageio.h"
+	"jbclass.h"
+	"morph.h"
+	"pix.h"
+	"recog.h"
+	"regutils.h"
+	"stringcode.h"
+	"sudoku.h"
+	"watershed.h"
+
+1551556980 c:\dev\lib\tesseract-mingw\include\leptonica\environ.h
+	<stdint.h>
+	<stdint.h>
+
+1551548193 c:\dev\lib\tesseract-mingw\include\leptonica\array.h
+
+1527902213 c:\dev\lib\tesseract-mingw\include\leptonica\arrayaccess.h
+
+1460677954 c:\dev\lib\tesseract-mingw\include\leptonica\bbuffer.h
+
+1551548185 c:\dev\lib\tesseract-mingw\include\leptonica\bmf.h
+
+1551548181 c:\dev\lib\tesseract-mingw\include\leptonica\ccbord.h
+
+1488415808 c:\dev\lib\tesseract-mingw\include\leptonica\dewarp.h
+
+1509988493 c:\dev\lib\tesseract-mingw\include\leptonica\gplot.h
+
+1460771727 c:\dev\lib\tesseract-mingw\include\leptonica\heap.h
+
+1551548176 c:\dev\lib\tesseract-mingw\include\leptonica\imageio.h
+
+1551556506 c:\dev\lib\tesseract-mingw\include\leptonica\jbclass.h
+
+1460771907 c:\dev\lib\tesseract-mingw\include\leptonica\list.h
+
+1551548165 c:\dev\lib\tesseract-mingw\include\leptonica\morph.h
+
+1551556508 c:\dev\lib\tesseract-mingw\include\leptonica\pix.h
+
+1551548159 c:\dev\lib\tesseract-mingw\include\leptonica\ptra.h
+
+1460677954 c:\dev\lib\tesseract-mingw\include\leptonica\queue.h
+
+1551548143 c:\dev\lib\tesseract-mingw\include\leptonica\regutils.h
+
+1551548134 c:\dev\lib\tesseract-mingw\include\leptonica\sudoku.h
+
+1460771176 c:\dev\lib\tesseract-mingw\include\leptonica\stack.h
+
+1460677954 c:\dev\lib\tesseract-mingw\include\leptonica\watershed.h
+
+1392042610 c:\dev\lib\tesseract-mingw\include\leptonica\leptprotos.h
+
+1539451552 c:\dev\lib\tesseract-mingw\include\leptonica\bmp.h
+
+1591972818 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\recogniser_tesseract.cpp
+	<iostream>
+	<tesseract/baseapi.h>
+	<leptonica/allheaders.h>
+	<leptonica/bmp.h>
+	"recogniser_tesseract.h"
+	"util.h"
+
+1591104886 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\recogniserabsdiff.cpp
+	"RecogniserAbsDiff.h"
+	"debug.h"
+	<dirent.h>
+
+1591024870 source:c:\dev\workspaces_opencv\passport_mrz_detector_cpp\recogniserknearest.cpp
+	<iostream>
+	<fstream>
+	<log4cpp/Category.hh>
+	<log4cpp/Priority.hh>
+	"RecogniserKNearest.h"
+	"debug.h"
+
+1591113364 c:\dev\lib\tesseract-mingw\include\tesseract\version.h
+
+1591111378 c:\dev\lib\tesseract-mingw\include\leptonica\endianness.h
+
+1551548156 c:\dev\lib\tesseract-mingw\include\leptonica\rbtree.h
+
+1551548146 c:\dev\lib\tesseract-mingw\include\leptonica\recog.h
+
+1551548139 c:\dev\lib\tesseract-mingw\include\leptonica\stringcode.h
+
